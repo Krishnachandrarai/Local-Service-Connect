@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services | Local Service Connect</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a href="index.html" class="brand">Local Service Connect</a>
+        <button class="menu-toggle" aria-label="Open navigation">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html" class="active">Services</a>
+          <a href="booking.html">Booking</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow">Explore Services</p>
+          <h1>Find the right professional for every need.</h1>
+          <p>Use the filters below to search by category, location, or keyword.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="filters">
+            <label>
+              <span>Service</span>
+              <select id="serviceFilter">
+                <option value="all">All Services</option>
+                <option value="plumbing">Plumbing</option>
+                <option value="electrical">Electrical</option>
+                <option value="cleaning">Cleaning</option>
+                <option value="painting">Painting</option>
+                <option value="carpentry">Carpentry</option>
+              </select>
+            </label>
+            <label>
+              <span>Location</span>
+              <select id="locationFilter">
+                <option value="all">All Locations</option>
+                <option value="bangalore">Bangalore</option>
+                <option value="pune">Pune</option>
+                <option value="hyderabad">Hyderabad</option>
+                <option value="mumbai">Mumbai</option>
+              </select>
+            </label>
+            <label>
+              <span>Search</span>
+              <input id="searchInput" type="text" placeholder="Search provider" />
+            </label>
+          </div>
+
+          <div class="card-grid service-grid">
+            <article class="service-card" data-category="plumbing" data-location="bangalore" data-name="Ravi Sharma">
+              <h3>Plumbing Repair</h3>
+              <p>Pipe leakage, faucet fitting, and emergency repair.</p>
+              <span class="service-meta">Ravi Sharma • Bangalore</span>
+            </article>
+            <article class="service-card" data-category="electrical" data-location="pune" data-name="Nisha Patel">
+              <h3>Electrical Installation</h3>
+              <p>Switchboards, lighting, and fan fitting support.</p>
+              <span class="service-meta">Nisha Patel • Pune</span>
+            </article>
+            <article class="service-card" data-category="cleaning" data-location="hyderabad" data-name="Aman Verma">
+              <h3>Home Deep Cleaning</h3>
+              <p>Complete cleaning for kitchens, bathrooms, and bedrooms.</p>
+              <span class="service-meta">Aman Verma • Hyderabad</span>
+            </article>
+            <article class="service-card" data-category="painting" data-location="mumbai" data-name="Sanjay Rao">
+              <h3>Interior Painting</h3>
+              <p>Professional wall painting with premium finish.</p>
+              <span class="service-meta">Sanjay Rao • Mumbai</span>
+            </article>
+            <article class="service-card" data-category="carpentry" data-location="bangalore" data-name="Lata Menon">
+              <h3>Furniture Repair</h3>
+              <p>Quick repairs and custom fittings for wooden furniture.</p>
+              <span class="service-meta">Lata Menon • Bangalore</span>
+            </article>
+            <article class="service-card" data-category="plumbing" data-location="mumbai" data-name="Kiran Das">
+              <h3>Water Heater Setup</h3>
+              <p>Install and fix water heater systems safely.</p>
+              <span class="service-meta">Kiran Das • Mumbai</span>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>Local Service Connect</h3>
+          <p>Connecting homes and businesses with trusted local experts.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

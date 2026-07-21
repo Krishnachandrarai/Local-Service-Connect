@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book a Service | Local Service Connect</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a href="index.html" class="brand">Local Service Connect</a>
+        <button class="menu-toggle" aria-label="Open navigation">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="booking.html" class="active">Booking</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow">Booking Form</p>
+          <h1>Reserve professional help in a few simple steps.</h1>
+          <p>Share your details and we will match you with the best available expert.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container booking-layout">
+          <form id="bookingForm" class="form-card" novalidate>
+            <label>
+              <span>Full Name</span>
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              <span>Phone Number</span>
+              <input type="tel" name="phone" required />
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" required />
+            </label>
+            <label>
+              <span>Service Category</span>
+              <select name="service" required>
+                <option value="">Select a service</option>
+                <option>Plumbing</option>
+                <option>Electrical</option>
+                <option>Cleaning</option>
+                <option>Painting</option>
+                <option>Carpentry</option>
+              </select>
+            </label>
+            <label>
+              <span>Preferred Date</span>
+              <input type="date" name="date" required />
+            </label>
+            <label>
+              <span>Preferred Time</span>
+              <input type="time" name="time" required />
+            </label>
+            <label>
+              <span>Notes</span>
+              <textarea name="notes" rows="4" placeholder="Describe your issue"></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary">Confirm Booking</button>
+            <p id="bookingMessage" class="form-message" aria-live="polite"></p>
+          </form>
+
+          <div class="submission-panel">
+            <h3>Stored Booking Requests</h3>
+            <p id="bookingSubmissionCount" class="submission-count">Loading submissions…</p>
+            <ul id="bookingSubmissionList" class="submission-list"></ul>
+          </div>
+
+          <div class="submission-panel board-panel">
+            <h3>Jira-Style Work Board</h3>
+            <p class="submission-count">Track requests through the workflow.</p>
+            <div id="jiraBoard" class="jira-board"></div>
+          </div>
+
+          <aside class="panel-card">
+            <h3>Booking Tips</h3>
+            <ul>
+              <li>Choose a date with enough time for the provider to confirm.</li>
+              <li>Share clear details about the issue to get accurate estimates.</li>
+              <li>You will receive confirmation via SMS and email.</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>Local Service Connect</h3>
+          <p>Connecting homes and businesses with trusted local experts.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,154 @@
+{
+  "board": "Local Service Connect - Agile Project",
+  "columns": [
+    {
+      "name": "Backlog",
+      "cards": [
+        {
+          "id": "US-01",
+          "title": "User Authentication - Sign Up",
+          "description": "As a customer I want to sign up so that I can create an account.",
+          "epic": "User Authentication",
+          "storyPoints": 5,
+          "priority": "High",
+          "assignee": "Dev Team"
+        },
+        {
+          "id": "US-02",
+          "title": "User Authentication - Login",
+          "description": "As a customer I want to log in so that I can access my profile.",
+          "epic": "User Authentication",
+          "storyPoints": 5,
+          "priority": "High",
+          "assignee": "Dev Team"
+        },
+        {
+          "id": "US-04",
+          "title": "Service Discovery - View Categories",
+          "description": "As a customer I want to view service categories so that I can choose a service quickly.",
+          "epic": "Service Discovery",
+          "storyPoints": 5,
+          "priority": "High",
+          "assignee": "Dev Team"
+        },
+        {
+          "id": "US-05",
+          "title": "Service Discovery - Search by Location",
+          "description": "As a customer I want to search services by location so that I can find nearby providers.",
+          "epic": "Service Discovery",
+          "storyPoints": 5,
+          "priority": "High",
+          "assignee": "Dev Team"
+        },
+        {
+          "id": "US-10",
+          "title": "Payment Integration",
+          "description": "As a customer I want to make a payment so that I can confirm my booking.",
+          "epic": "Payment",
+          "storyPoints": 5,
+          "priority": "Medium",
+          "assignee": "Dev Team"
+        }
+      ]
+    },
+    {
+      "name": "Sprint 1",
+      "cards": [
+        {
+          "id": "US-06",
+          "title": "Service Discovery - Filter by Category",
+          "description": "As a customer I want to filter services by category so that I can narrow results.",
+          "epic": "Service Discovery",
+          "storyPoints": 3,
+          "priority": "High",
+          "assignee": "Dev Team",
+          "status": "in-progress"
+        },
+        {
+          "id": "US-07",
+          "title": "Booking Flow - Submit Request",
+          "description": "As a customer I want to submit a booking request so that I can schedule a service.",
+          "epic": "Booking Flow",
+          "storyPoints": 8,
+          "priority": "High",
+          "assignee": "Dev Team",
+          "status": "in-progress"
+        },
+        {
+          "id": "US-08",
+          "title": "Booking Flow - Choose Date and Time",
+          "description": "As a customer I want to choose a date and time so that I can plan around availability.",
+          "epic": "Booking Flow",
+          "storyPoints": 3,
+          "priority": "High",
+          "assignee": "Dev Team",
+          "status": "in-progress"
+        }
+      ]
+    },
+    {
+      "name": "In Progress",
+      "cards": [
+        {
+          "id": "US-03",
+          "title": "User Authentication - Reset Password",
+          "description": "As a customer I want to reset my password so that I can recover my account.",
+          "epic": "User Authentication",
+          "storyPoints": 3,
+          "priority": "Medium",
+          "assignee": "Dev Team"
+        },
+        {
+          "id": "US-09",
+          "title": "Booking Flow - Add Notes",
+          "description": "As a customer I want to add notes to my booking so that I can describe the issue clearly.",
+          "epic": "Booking Flow",
+          "storyPoints": 2,
+          "priority": "Medium",
+          "assignee": "Dev Team"
+        }
+      ]
+    },
+    {
+      "name": "Done",
+      "cards": [
+        {
+          "id": "TASK-001",
+          "title": "Home Page Design",
+          "description": "Create responsive home page with hero section and service categories.",
+          "epic": "Frontend",
+          "storyPoints": 5,
+          "priority": "High",
+          "assignee": "Dev Team"
+        },
+        {
+          "id": "TASK-002",
+          "title": "Services Page Implementation",
+          "description": "Build services listing page with filters.",
+          "epic": "Frontend",
+          "storyPoints": 5,
+          "priority": "High",
+          "assignee": "Dev Team"
+        },
+        {
+          "id": "TASK-003",
+          "title": "Booking Form Creation",
+          "description": "Create booking form with validation.",
+          "epic": "Booking Flow",
+          "storyPoints": 5,
+          "priority": "High",
+          "assignee": "Dev Team"
+        },
+        {
+          "id": "TASK-004",
+          "title": "Contact Form Setup",
+          "description": "Build contact page with messaging functionality.",
+          "epic": "Frontend",
+          "storyPoints": 3,
+          "priority": "Medium",
+          "assignee": "Dev Team"
+        }
+      ]
+    }
+  ]
+}

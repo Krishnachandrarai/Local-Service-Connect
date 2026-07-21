@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | Local Service Connect</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a href="index.html" class="brand">Local Service Connect</a>
+        <button class="menu-toggle" aria-label="Open navigation">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="booking.html">Booking</a>
+          <a href="contact.html" class="active">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow">Contact Us</p>
+          <h1>We are here to help.</h1>
+          <p>Reach out for support, partnership inquiries, or service-related questions.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-layout">
+          <form id="contactForm" class="form-card" novalidate>
+            <label>
+              <span>Your Name</span>
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" required />
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="5" required></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <p id="contactMessage" class="form-message" aria-live="polite"></p>
+          </form>
+
+          <div class="submission-panel">
+            <h3>Stored Contact Requests</h3>
+            <p id="contactSubmissionCount" class="submission-count">Loading submissions…</p>
+            <ul id="contactSubmissionList" class="submission-list"></ul>
+          </div>
+
+          <aside class="panel-card">
+            <h3>Contact Details</h3>
+            <p><strong>Email:</strong> Servicehelp2006.com</p>
+            <p><strong>Phone:</strong> +91 98765 43210</p>
+            <p><strong>Address:</strong> 42, Market Street, Bangalore, India</p>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>Local Service Connect</h3>
+          <p>Connecting homes and businesses with trusted local experts.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
